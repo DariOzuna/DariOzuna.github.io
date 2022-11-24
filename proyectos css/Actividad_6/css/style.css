@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Merriweather', serif;
+
+}
+
+.titulo{
+
+    text-align: center;
+    font-size: 35px;
+    color: #646FD4;
+    text-decoration: underline #646FD4 ;
+    padding: 15px;
+}
+
+
+.margen{
+
+    margin:15px;
+} 
+.container{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+   
+}
+
+.header{
+
+    width: 1000px;
+    height: 150px;
+    clear: both;
+    float: left;
+    background-color: #DBDFFD;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}
+.menu{
+
+    background-color:#9BA3EB ;
+    width: 1000px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clear: both;
+    float: center;
+    display: flex;
+    
+}
+
+a{
+
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    border:1px solid #000 ;
+}
+.Content{
+    background-color:#DBDFFD ;
+    width: 250px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: flex;
+}
+.Main{
+    background-color:#646FD4 ;
+    width: 500px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: flex;
+
+}
+.Contenido{
+
+    background-color:#DBDFFD ;
+    width: 250px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: flex; 
+
+}
+.footer{
+    background-color:#9BA3EB ;
+    width: 1000px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clear: both;
+    float: center;
+    display: flex;
+}

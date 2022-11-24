@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>App calculadora v 1.0</title>
+</head>
+<body>
+
+   
+    <div class="form-body">
+           <img src="img/calculadora.png" alt="calculadora" height="100px">
+         <p class="text">APP CALCULADORA 1.0</p>
+         <form class="calculadora-form"></form>
+         <input type="number" name="n1" id="n1" placeholder="Digite el primer numero">
+         <input type="number" name="n2" id="n2" placeholder="Digite el segundo numero">
+
+         <input type="button" value="Suma" id="button" onclick="sumar()">
+         <p class="js" id="resultado_suma"></p>
+         <input type="button" value="Resta" id="button" onclick="restar()">
+         <p class="js" id="resultado_resta"></p>
+         <input type="button" value="Multiplicacion" id="button" onclick="multiplicar()">
+         <p class="js" id="resultado_multiplicacion"></p>
+         <input type="button" value="Division" id="button" onclick="dividir()">
+         <p class="js" id="resultado_division"></p>
+        
+         
+         
+         
+    </div>
+    <div>
+        <script src="js/app.js"></script>
+    </div>
+</body>
+</html>

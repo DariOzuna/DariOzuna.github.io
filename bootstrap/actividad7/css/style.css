@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+.banner-image{
+    background-image: url(../img/tulipanes.jpg);
+    background-size: cover;
+}
+
+body{
+
+    box-shadow:inset 1px 1px 250px #874C62 ;
+}
+.nav-link:hover{
+
+    background-color: transparent;
+    box-shadow:inset 0 0 20px #874C62 ;
+    color: darkred;
+
+
+
+}
+.nav-item{
+
+    background-color: rgba(247, 244, 244, 0.534);
+    border-radius: 2px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    
+}
+.footer{
+
+    background-color: #874C62;
+}
+.section{
+
+    background: linear-gradient(270deg,#d382a0 90%,#fff 10%);
+    background: linear-gradient(270deg,#fff 10%,#d382a0  90%);
+    box-shadow: 1px 1px 10px #874C62;
+    border-radius: 10px;
+}
+

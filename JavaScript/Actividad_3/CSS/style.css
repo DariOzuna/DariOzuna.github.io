@@ -1,0 +1,40 @@
+
+body{
+
+    background-color: rgb(119, 162, 210);
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+}
+
+P{
+    background-color: rgb(76, 116, 161);
+    padding: 12px;
+    font-size: 20px;
+}
+ol{
+
+    background-color: aliceblue;
+    border: 3px solid #000;
+    border-radius: 5PX;
+    
+
+}
+
+
+.edit{
+
+    background-color: cornflowerblue;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+}
+footer {
+    padding: 12px;
+    background-color: blue;
+    color: #fff;
+    
+}

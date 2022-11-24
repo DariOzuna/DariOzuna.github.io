@@ -1,0 +1,334 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(177, 214, 245);
+    }
+    h1{
+
+        color: #0a3b6e;
+        background-color: #d2dce2;
+        padding: 12px;
+        text-align: center;
+    
+        border: 2px solid rgb(32, 85, 87);
+    }
+    .margen{
+
+        margin: 48px;
+    }
+
+    .caja1{
+        width: 48px;
+        height: 32px;
+        background-color:  #EBF8FF; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;  
+    }
+    .caja2{
+
+        width: 64px;
+        height: 32px;
+        background-color:  #BEE3F8; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;   
+    }
+    .caja3{
+
+        width: 80px;
+        height: 32px;
+        background-color:  #90CDF4; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;
+    }
+    .caja4{
+
+        width: 96px;
+        height: 32px;
+        background-color:  #63B3ED; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;   
+    }
+    .caja5{
+
+        width: 112px;
+        height: 32px;
+        background-color:  #4299E1; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;
+        
+    }
+    .caja6{
+
+        width: 128px;
+        height: 32px;
+        background-color:  #3182CE; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;
+        
+    }
+    .caja7{
+
+        width: 144px;
+        height: 32px;
+        background-color:  #2B6CB0; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;
+        
+    }
+    .caja8{
+
+        width: 160px;
+        height: 32px;
+        background-color:  #2C5282; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;
+        
+    }
+    .caja9{
+        width: 176px;
+        height: 32px;
+        background-color:  #2A4365; 
+        padding:8px ;
+        margin-bottom: 8px;
+        border:1px solid #000;
+        
+    } 
+    .box1{
+
+        width: 80px;
+        height: 32px;
+        background-color:#EBF8FF;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+        border:1px solid #000;
+    }
+    .box2{
+
+        width: 80px;
+        height: 32px;
+        background-color:#BEE3F8;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 16px;
+        border:1px solid #000;
+    }
+    .box3{
+
+        width: 80px;
+        height: 32px;
+        background-color:#90CDF4;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 24px;
+        border:1px solid #000;
+    }
+    .box4{
+
+        width: 80px;
+        height: 32px;
+        background-color:#63B3ED;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 32px;
+        border:1px solid #000;
+    }
+
+    .box5{
+
+        width: 80px;
+        height: 32px;
+        background-color:#4299E1;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 40px;
+        border:1px solid #000;
+    }
+
+    .box6{
+
+        width: 80px;
+        height: 32px;
+        background-color:#3182CE;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 48px;
+        border:1px solid #000;
+    }
+    .box7{
+
+        width: 80px;
+        height: 32px;
+        background-color:#2B6CB0;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 56px;
+        border:1px solid #000;
+    }
+
+    .box8{
+
+        width: 80px;
+        height: 32px;
+        background-color:#2C5282;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 64px;
+        border:1px solid #000;
+    }
+
+    .box9{
+
+        width: 80px;
+        height: 32px;
+        background-color:#2A4365;
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        margin-left: 72px;
+        border:1px solid #000;
+    }
+
+    .contenedor1{
+        width: 176px;
+        height: 176px;
+        background-color: #2A4365;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+
+
+    }
+    .contenedor2{
+        width: 160px;
+        height: 160px;
+        background-color: #2C5282;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .contenedor3{
+        width: 144px;
+        height: 144px;
+        background-color: #2B6CB0;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+
+    }
+
+    .contenedor4{
+        width: 128px;
+        height: 128px;
+        background-color: #3182CE;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+
+    }
+
+    .contenedor5{
+        width: 112px;
+        height: 112px;
+        background-color: #4299E1;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+
+
+    }
+    .contenedor6{
+        width: 96px;
+        height: 96px;
+        background-color: #63B3ED;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+
+    }
+    .contenedor7{
+        width: 80px;
+        height: 80px;
+        background-color: #90CDF4;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+
+
+    }
+    .contenedor8{
+        width: 64px;
+        height: 64px;
+        background-color: #BEE3F8;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+
+    }
+    .contenedor9{
+        width: 48px;
+        height: 48px;
+        background-color: #EBF8FF;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    div:hover{
+        transform: scale(0.8);
+    }
+

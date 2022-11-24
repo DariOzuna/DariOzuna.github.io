@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(27deg,#3889ec 50%,#57A4FF 50%);
+} 
+.form-body{
+     
+    width: 400px;
+    min-width: 300px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+}
+.form-body img{
+
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+.form-body .text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600; /*grueso de la letra*/
+    color: #000;
+    margin-bottom: 20px;
+}
+.form-body input[type="number"]{
+
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: aliceblue;
+    border: 1px solid #fff ;
+    border-radius: 2px;
+    font-family: cursive;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+
+}
+.form-body input[name="n2"]{
+
+    margin-top: 20px;
+}
+::placeholder{
+
+    font-size: 1rem;
+    color: #fff;
+}
+.form-body input[type="number"]:hover{
+
+    transition: .5s;
+    border: 1px solid #D80027 ;
+    color:#fff ;
+}
+.form-body input[type="button"]{
+
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 78%;
+    background: #9BC9FF;
+    color: #000;
+    border: 1px solid #eb0f37;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    font-family: cursive;
+    font-size: 16px;
+
+}
+.form-body input[type="button"]:hover{
+    transition: .5s;
+    border: 2px solid #98031e;
+    color: #fff;
+    background: linear-gradient(#57A4FF,#296fc4);
+
+}
+.js{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+}

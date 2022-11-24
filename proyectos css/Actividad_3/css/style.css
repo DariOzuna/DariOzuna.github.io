@@ -1,0 +1,64 @@
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,400;1,100;1,300&display=swap');
+
+        body{
+
+            background-color: #8DD3DB;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+
+        }
+
+        .logo{
+            width: 256px;
+            height: 256px;
+            margin: auto;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        nav{
+            text-align: center;
+            border: 3px solid floralwhite;
+            padding: 10px;
+        }
+
+        #menu {
+            background-color: floralwhite;
+            padding: 8px;
+        
+        }
+
+        h1{
+            font-size: 25px;
+            color: #e90505;
+            text-align: center;
+        }
+
+        section div{
+            text-align: center;
+        }
+         img{
+           border-radius: 12px;
+           height: 256px;
+           border: 3px solid rgb(3, 145, 240);
+        }
+    
+        p{
+            background-color: #ffffffdb;
+            color: rgb(0, 0, 0);
+            padding: 16px;
+        }
+        p span{
+            border: 1px solid rgb(210, 57, 57);     
+            border-radius:4px;         
+            font-weight: bold;   
+            padding: 4px; 
+
+        }
+
+        h2{
+            font-size: 30px;
+            color: #e90505;
+            border: 1px solid f;
+        }
+       

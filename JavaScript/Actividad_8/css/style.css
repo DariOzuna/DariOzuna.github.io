@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: #277BC0;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 19px 20px 8px -9px #000;
+    width: 400px;
+    max-width: 100%;
+    color: #001D6E;
+    
+}
+
+header{
+
+    background-color: #001D6E;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+#formUser{
+
+    padding: 30px 20px;
+    
+}
+.form-control{
+
+    position: relative;
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+}
+
+.form-control label{
+
+    display: inline-block;
+    margin-bottom: 7px;
+    font:weight 200px;
+}
+
+.form-control input{
+
+    border: none;
+    font-size: 16px;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    background-color: #d7e5f9;
+}
+
+.form-control, input:focus{
+
+    outline: none;
+}
+#formUser input[type="button"]{
+
+    background:#001D6E;
+    border: 1px solid #0944e7;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+
+}
+#formUser input[type="button"]:hover{
+
+    background:linear-gradient(#001D6E,#5CB8E4);
+}
+
+.form-control p{
+
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+    color: #EB1D36;
+}
